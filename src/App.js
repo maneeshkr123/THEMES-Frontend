@@ -5,11 +5,11 @@ import {
 	Route,
 	Link
 } from 'react-router-dom';
-import Home from './components/Home';
+import Home from './modules/frontend/index/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import NavBar from './components/NavBar';
-import LogIn from './modules/login/Login';
+import LogIn from './modules/frontend/login/Login';
 
 function App() {
 	return (
